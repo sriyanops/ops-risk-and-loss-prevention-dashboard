@@ -94,6 +94,8 @@ site_resource_ops_tool/
 ```
 
 ## How to Run
+> Run the application from the repository root.
+
 
 ### Install dependencies
 
@@ -104,16 +106,28 @@ pip install -r requirements.txt
 
 ### Generate executive PDF report
 
-python src/main.py
+python -m src.main
 
 
 ## Output:
 
-outputs/site_resource_ops_report.pdf
+reports/site_resource_ops_report.pdf
 
 ## Launch interactive dashboard
 
-streamlit run src/app.py
+> Run from the repository root.
+
+**macOS / Linux** - 
+```PYTHONPATH=. streamlit run src/app.py``` 
+
+**Windows** - 
+```
+$env:PYTHONPATH="."
+streamlit run src/app.py 
+```
+> By default, the dashboard uses the sample dataset in data/sample/.
+To run against local development data, set OPS_DATA_DIR=raw.
+
 
 ## Screenshots & Sample Outputs
 
