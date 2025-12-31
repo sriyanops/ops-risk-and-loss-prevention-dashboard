@@ -128,7 +128,7 @@ streamlit run src/app.py
 
 ### Generated PDF report
 
-[`site_resource_ops.pdf`](docs/reports/site_resource_ops_report.pdf) 
+[`site_resource_ops_report.pdf`](docs/reports/site_resource_ops_report.pdf) 
 
 ## Design Choices
 
