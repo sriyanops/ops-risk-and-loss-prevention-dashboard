@@ -315,7 +315,6 @@ def build_pdf(
     story.append(Spacer(1, 0.2 * inch))
 
     # Charts page
-    story.append(PageBreak())
     story.append(Paragraph("Key Visuals", h_style))
     story.append(Spacer(1, 0.1 * inch))
 
