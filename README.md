@@ -101,13 +101,13 @@ site_resource_ops_tool/
 
 All required Python dependencies are listed in [`requirements.txt`](requirements.txt).
 
-
+```
 pip install -r requirements.txt
-
+```
 ### Generate executive PDF report
-
+```
 python -m src.main
-
+```
 
 ## Output:
 
