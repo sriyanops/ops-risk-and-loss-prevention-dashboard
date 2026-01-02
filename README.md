@@ -8,6 +8,9 @@ This project is designed for operations analysts, operations managers, and publi
 
 ## What This Tool Does
 
+### Problem This Tool Solves
+
+Operational leaders often lack a consolidated view of emerging risk drivers across sites until losses have already materialized. Data is typically fragmented across metrics, making it difficult to identify which locations require attention and what actions should be prioritized. This tool aggregates operational indicators into structured risk tiers and decision outputs, enabling earlier intervention and more consistent, data-driven resource allocation.
 The system ingests daily, site-level operational data and produces:
 
 - Utilization and loss KPIs  
@@ -24,6 +27,8 @@ The outputs are designed to support:
 - Risk identification
 - Resource planning decisions
 - Process improvement prioritization
+
+
 
 ## Tech Stack
 
